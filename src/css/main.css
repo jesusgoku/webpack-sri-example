@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.clock {
+  font-size: 36px;
+}
+
+.locale-selector {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
